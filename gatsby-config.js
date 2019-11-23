@@ -1,9 +1,10 @@
 module.exports = {
   siteMetadata: {
     title: `TEDxJHU`,
-    description: `TEDxJHU website.`,
-    author: `@arpansahoo`,
+    description: `The official TEDxJHU website.`,
+    author: `Arpan Sahoo`,
   },
+  pathPrefix: "/TEDxJHU",
   plugins: [
     `gatsby-plugin-react-helmet`,
     'gatsby-plugin-sharp',

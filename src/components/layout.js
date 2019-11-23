@@ -25,9 +25,20 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata.title} />
-      <div>
-        <main>{children}</main>
+      <div class="site">
+        <Header siteTitle={data.site.siteMetadata.title} />
+        <div class="site-content">
+          <main>{children}</main>
+        </div>
+        <footer class="footer">
+          <div class="footer-wrapper">
+            <p class="footer-left">
+              This TEDx event is operated under license from TED.
+              Follow TEDxJHU on Facebook and Instagram!
+            </p>
+            <p class="footer-right">Built by Arpan Sahoo</p>
+          </div>
+        </footer>
       </div>
     </>
   )
