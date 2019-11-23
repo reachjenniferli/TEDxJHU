@@ -1,35 +1,23 @@
-import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import Image from "../components/image"
+import logo from '../images/headerLogo.png';
 
-const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
+const Header = ({ data }) => (
+  <header className="header">
+    <style> @import url('https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,700&display=swap');</style>
+    <a href="/">
+      <img href="/" src={logo} alt="TEDxJHU logo" id="logo"></img>
+    </a>
+    <div class="header-right">
+      <a href="/">HOME</a>
+      <a href="/">2020 EVENT</a>
+      <a href="/">PAST EVENTS</a>
+      <a href="page-2">OUR TEAM</a>
     </div>
   </header>
 )
+
 
 Header.propTypes = {
   siteTitle: PropTypes.string,
@@ -38,5 +26,6 @@ Header.propTypes = {
 Header.defaultProps = {
   siteTitle: ``,
 }
+
 
 export default Header
