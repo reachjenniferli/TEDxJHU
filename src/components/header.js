@@ -10,8 +10,8 @@ const Header = ({ data }) => (
     </a>
     <div class="header-right">
       <a href="/">HOME</a>
-      <a href="/">2020 EVENT</a>
-      <a href="/">PAST EVENTS</a>
+      <a href="/2020-event">2020 EVENT</a>
+      <a href="/past-events">PAST EVENTS</a>
       <a href="/our-team">OUR TEAM</a>
     </div>
   </header>
