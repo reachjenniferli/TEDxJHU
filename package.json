@@ -3,7 +3,7 @@
   "private": true,
   "description": "The official TEDxJHU website",
   "version": "0.1.0",
-  "homepage": "https://arpansahoo.github.io/TEDxJHU",
+  "homepage": "https://arpansahoo.github.io/TEDxJHU/",
   "author": "Arpan Sahoo",
   "dependencies": {
     "gatsby": "^2.17.11",
@@ -41,7 +41,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/arpansahoo/TEDxJHU"
+    "url": "https://github.com/arpansahoo/TEDxJHU/"
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"

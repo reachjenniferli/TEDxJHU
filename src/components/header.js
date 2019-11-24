@@ -9,14 +9,14 @@ const Header = () => (
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
 
     <div class="header-small">
-      <a href="/">
+      <a href="/TEDxJHU/">
         <img src={logo} alt="TEDxJHU logo" id="logo"></img>
       </a>
       <div class="header-right">
-        <a href="/">HOME</a>
-        <a href="/2020-event">2020 EVENT</a>
-        <a href="/past-events">PAST EVENTS</a>
-        <a href="/our-team">OUR TEAM</a>
+        <a href="/TEDxJHU/">HOME</a>
+        <a href="/TEDxJHU/2020-event/">2020 EVENT</a>
+        <a href="/TEDxJHU/past-events/">PAST EVENTS</a>
+        <a href="/TEDxJHU/our-team/">OUR TEAM</a>
       </div>
     </div>
   </header>

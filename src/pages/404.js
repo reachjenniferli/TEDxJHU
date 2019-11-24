@@ -5,10 +5,10 @@ import SEO from "../components/seo"
 
 const NotFoundPage = () => (
   <Layout>
-    <SEO title="404: Not found" />
+    <SEO title="Oops!" />
     <div class="not-found">
-      <h1>Page currently under development.</h1>
-      <p>Don't be too sad. Check back later!</p>
+      <h1>Page is either currently under development or doesn't exist.</h1>
+      <p style={{paddingTop: "10px",}}>Don't be too sad. Check back later!</p>
     </div>
   </Layout>
 )

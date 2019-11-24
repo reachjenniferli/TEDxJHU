@@ -49,7 +49,7 @@ const IndexPage = () => (
       <img src={bg} alt="Background Wallpaper" id="bg-img"></img>
       <img src={bgLogo} alt="TEDxJHU Logo" id="bg-logo"></img>
       <div class="button-wrapper">
-        <a href="/2020-event">
+        <a href="/TEDxJHU/2020-event/">
         <button class="enter-button">View 2020 Event</button>
         </a>
       </div>

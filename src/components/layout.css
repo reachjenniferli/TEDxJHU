@@ -229,7 +229,7 @@ a:active {
 }
 
 @media only screen and (max-width: 800px) {
-  html {
+  html, body {
     overflow-x: hidden;
   }
 
@@ -259,7 +259,7 @@ a:active {
   }
 
   #bg-logo {
-    margin-top: 100px;
+    margin-top: 105px;
     left: 5%;
     right: 5%;
     height: auto;
@@ -279,6 +279,19 @@ a:active {
 
   .header-small {
     display: grid;
+  }
+
+  .header a {
+    float: left;
+    color: black;
+    text-align: center;
+    margin-top: 5px;
+    padding: 5px 8px 5px 8px;
+    text-decoration: none;
+    font-size: 12px; 
+    line-height: 18px;
+    border-radius: 4px;
+    transition: all 300ms;
   }
   
   .header-right {
