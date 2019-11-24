@@ -34,7 +34,7 @@ const Layout = ({ children }) => {
           <div class="footer-wrapper">
             <p class="footer-left">
               This TEDx event is operated under license from TED.
-              Follow TEDxJHU on <a href="https://www.facebook.com/tedxjhu/" target="_blank" rel="noopener noreferrer">Facebook</a> and <a href="https://www.instagram.com/tedxhopkins/" target="_blank" rel="noopener noreferrer">Instagram</a>!
+              Follow TEDxJHU on <a href="https://www.facebook.com/tedxjhu/" target="_blank" rel="noopener noreferrer">Facebook</a> & <a href="https://www.instagram.com/tedxhopkins/" target="_blank" rel="noopener noreferrer">Instagram</a>
             </p>
             <p class="footer-right">Built by Arpan Sahoo</p>
           </div>

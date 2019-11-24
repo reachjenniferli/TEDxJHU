@@ -1,7 +1,7 @@
 {
-  "name": "TEDxJHU",
+  "name": "tedx-jhu",
   "private": true,
-  "description": "The official TEDxJHU website",
+  "description": "The official TEDxJHU website. A completely student-run series of TED-like talks at Johns Hopkins University.",
   "version": "0.1.0",
   "homepage": "https://arpansahoo.github.io/TEDxJHU/",
   "author": "Arpan Sahoo",

@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `TEDxJHU`,
-    description: `The official TEDxJHU website.`,
+    description: `The official TEDxJHU website. A completely student-run series of TED-like talks at Johns Hopkins University.`,
     author: `Arpan Sahoo`,
   },
   pathPrefix: "/TEDxJHU/",

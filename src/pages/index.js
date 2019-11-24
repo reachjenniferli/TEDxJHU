@@ -96,7 +96,7 @@ const IndexPage = () => (
 
     <div class="about"> 
       <p class="about-header">About TEDxJHU</p>
-      <p class="about-text">In the spirit of ideas worth spreading, TED has created a program called TEDx. TEDx is a program of local, self-organized events that bring people together to share a TED-like experience. Hosted at Johns Hopkins University, our event is called TEDxJHU, where x = independently organized TED event. At our TEDxJHU event, TED Talks video and live speakers will combine to spark deep discussion and connection in a small group. The TED Conference provides general guidance for the TEDx program, but individual TEDx events, including ours, are self-organized.</p>
+      <p class="about-text">TEDxJHU is a completely student-run series of TED-like talks at Johns Hopkins University. Each year, we host two events with a diverse array of speakers and performers in hopes of teaching, inspiring, and entertaining the Johns Hopkins community.</p>
     </div>
   </Layout>
 )
