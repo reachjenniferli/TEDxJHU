@@ -6,7 +6,7 @@ const SecondPage = () => (
   <Layout>
     <SEO title="Our Team" />
     <h1>Our team</h1>
-    <p>in development</p>
+    <p>This page is currently being developed! Wow!</p>
   </Layout>
 )
 
