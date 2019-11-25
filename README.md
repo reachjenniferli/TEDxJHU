@@ -4,8 +4,8 @@ This is the repository for the official TEDxJHU website, built using GatbsyJS. Y
 
 ## Preview
 ### Preview 1
-![](/preview.png)
+![](/preview_1.png)
 
 ### Preview 2
-![](/preview2.png)
+![](/preview_2.png)
 
