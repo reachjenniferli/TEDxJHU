@@ -180,8 +180,10 @@ html {
 }
 
 .not-found {
+  padding-left: 50px;
+  padding-right: 15px;
   padding-top: 20px;
-  padding-left: 25px;
+  padding-bottom: 15px;
 }
 
 .recent-talks {
@@ -247,10 +249,14 @@ html {
     overflow-x: hidden;
   }
 
+  #icon1, #icon2, #icon3 {
+    height: 14px;
+  }
+
   .footer {
     display: grid;
     padding-bottom: 10px;
-    font-size: 13px;
+    font-size: 10px;
   }
   
   .footer-left {

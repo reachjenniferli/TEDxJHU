@@ -15,7 +15,7 @@ class CardSelector extends Component {
   render() {
     return (
       <div
-        className="card"
+        className="card small-card"
         onClick={this.toggleSelect}
         style={
           this.props.selected ? this.selectedStyles : this.unselectedStyles

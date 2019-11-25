@@ -1,6 +1,6 @@
 .team-content {
     padding-left: 50px;
-    padding-right: 15px;
+    padding-right: 25px;
     padding-top: 20px;
     padding-bottom: 15px;
 }
@@ -19,7 +19,7 @@
 .side-by-side {
     display: flex;
     padding-top: 30px;
-    padding-left: 30px;
+    padding-left: 4px;
 }
 
 .teams {
@@ -55,7 +55,8 @@
 
 .alt {
     transform: scale(1.05);
-    margin-right: 50px;
+    margin-right: 5%;
+    margin-bottom: 4.5%;
     cursor: default;
     padding: 0px;
     background-color: #242424;
@@ -98,5 +99,54 @@
     padding-top: 5px;
     text-align: center;
     padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
+
+@media only screen and (max-width: 800px) {
+    .side-by-side {
+        display: block;
+    }
+
+    .teams {
+        display: block;
+        padding-bottom: 20px;
+        width: 100%;
+    }
+
+    .members {
+        padding-top: 2%;
+        padding-left: 1.2%;
+    }
+
+    .card-text {
+        display: none;
+    }
+
+    .team-content {
+        padding-left: 30px;
+        padding-right: 25px;
+        padding-top: 20px;
+        padding-bottom: 15px;
+    }
+
+    .small {
+        display: flex;
+    }
+
+    .small-card {
+        padding: 8px;
+        margin-right: 20px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .alt {
+        margin-bottom: 7%;
+    }
+
+    .card-title {
+        font-size: 12px;
+    }
+}
