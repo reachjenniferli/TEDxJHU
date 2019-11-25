@@ -56,7 +56,8 @@ const IndexPage = () => (
     </div>
 
     <div class="recent-talks">
-        <p class="recent-talks-header">Recent Talks</p>
+        <p class="recent-talks-header">Newest Talks</p>
+        <p class="recent-talks-subheader">An assortment of talks from our recent events</p>
         <Slider {...settings}>
           <div class="recent-talks-videos"> 
             <a href="https://youtu.be/2Hubvs2TiL4" target="_blank" rel="noopener noreferrer">

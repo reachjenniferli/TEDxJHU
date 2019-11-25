@@ -1,6 +1,6 @@
 .team-content {
     padding-left: 50px;
-    padding-right: 25px;
+    padding-right: 5px;
     padding-top: 20px;
     padding-bottom: 15px;
 }
@@ -56,7 +56,7 @@
 .alt {
     transform: scale(1.05);
     margin-right: 5%;
-    margin-bottom: 4.5%;
+    margin-bottom: 5%;
     cursor: default;
     padding: 0px;
     background-color: #242424;
