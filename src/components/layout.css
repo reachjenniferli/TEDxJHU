@@ -16,33 +16,6 @@ html {
   background-color: #F6F6F6;
 }
 
-a:link {
-  color: #EE3223;
-  background-color: transparent;
-  text-decoration: none;
-  -webkit-transition: color 300ms;
-  transition: color 300ms;
-}
-
-a:visited {
-  color: #EE3223;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #F6F6F6;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:active {
-  color: #F6F6F6;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-
 .site {
   display: flex;
   min-height: 100vh;
@@ -82,23 +55,59 @@ a:active {
 .footer {
   background-color: #242424;
   color: white;
-  font-size: 13px;
-  display: block;
-  box-sizing: border-box;
+  font-size: 14px;
+  padding-bottom: 8px;
+  padding-top: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 .footer-left {
   float: left;
+  display: flex;
 }
-.footer-right {
+.right {
   color: #818181;
   float: right;
 }
-.footer-wrapper {
-  padding-bottom: 30px;
-  padding-top: 10px;
-  padding-right: 15px;
-  padding-left: 15px;
+
+#icon1 {
+  fill: white;
+  -webkit-transition: fill 300ms;
+  transition: fill 300ms;
+  height: 18px;
+  width: auto;
+  padding-left: 8px;
+}
+
+#icon1:hover {
+  fill: #EE3223;
+}
+
+#icon2 {
+  fill: white;
+  -webkit-transition: fill 300ms;
+  transition: fill 300ms;
+  height: 18px;
+  width: auto;
+  padding-left: 8px;
+}
+
+#icon2:hover {
+  fill: #EE3223;
+}
+
+#icon3 {
+  fill: white;
+  -webkit-transition: fill 300ms;
+  transition: fill 300ms;
+  height: 18px;
+  width: auto;
+  padding-left: 8px;
+}
+
+#icon3:hover {
+  fill: #EE3223;
 }
 
 .site-content {
@@ -113,13 +122,13 @@ a:active {
 #bg-img {
   height: 100%;
   width: 100%;
-  filter: grayscale(100%);
+  filter: grayscale(0%);
   transition: filter 2s ease;
   -webkit-transition: filter 2s ease;
 }
 
 .main:hover #bg-img {
-  filter: grayscale(0%);
+  filter: grayscale(100%);
 }
 
 #bg-logo {
@@ -146,7 +155,7 @@ a:active {
 .enter-button {
   background-color: transparent; 
   position: absolute;
-  border: 2px solid white;
+  border: 3px solid #EE3223;
   border-radius: 3px;
   outline: none;
   color: white;
@@ -158,7 +167,7 @@ a:active {
   margin-top: 26.5%;
   left: 37%;
   right: 37%;
-  background: linear-gradient(to right, #EE3223 50%, transparent 50%);
+  background: linear-gradient(to right, #E43021 58%, transparent 50%);
   background-size: 200% 100%;
   background-position: right bottom;
   transition: background-position .5s ease-out;
@@ -239,29 +248,28 @@ a:active {
   }
 
   .footer {
-    text-align: center;
+    display: grid;
+    padding-bottom: 10px;
+    font-size: 13px;
   }
-
-  .footer-right {
-    color: #818181;
+  
+  .footer-left {
+    margin: 0 auto;
+  }
+  .right {
+    margin: 0 auto;
     float: left;
-    visibility: hidden;
   }
 
   .about {
     padding-left: 50px;
     padding-right: 50px;
-    background-color: white;
     text-align: left;
-    font-weight: 100;
   }
 
   #bg-img {
     height: 400px;
     width: auto;
-    filter: grayscale(100%);
-    transition: filter 2s ease;
-    -webkit-transition: filter 2s ease;
   }
 
   #bg-logo {
@@ -288,17 +296,9 @@ a:active {
   }
 
   .header a {
-    float: left;
-    color: black;
-    text-align: center;
     margin-top: 5px;
     padding: 5px 8px 5px 8px;
-    text-decoration: none;
     font-size: 12px; 
-    line-height: 18px;
-    border-radius: 4px;
-    transition: all 300ms;
-    -webkit-transition: all 300ms;
   }
   
   .header-right {

@@ -91,8 +91,7 @@ const IndexPage = () => (
         </Slider>
     </div>
 
-    <div class="divider">
-    </div>
+    <div class="divider"></div>
 
     <div class="about"> 
       <p class="about-header">About TEDxJHU</p>
