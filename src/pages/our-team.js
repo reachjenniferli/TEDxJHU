@@ -151,6 +151,8 @@ const OurTeam = () => {
               </div>
             </div>
           </div>
+
+          
           <div class="members">
             {curator &&
                 <div class="member-wrapper">

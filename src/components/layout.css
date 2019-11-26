@@ -26,8 +26,8 @@ html {
   overflow: hidden;
   background-color: white;
   padding: 5px 10px;
-  border-bottom: 3px solid #EE3223;
-  box-shadow: 0 0 12px rgba(0,0,0,.15);
+  border-bottom: 2.3px solid #EE3223;
+  box-shadow: 0 0 10px rgba(0,0,0,.15);
 }
 
 .header a {
