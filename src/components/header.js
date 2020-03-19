@@ -15,7 +15,6 @@ const Header = () => (
       <div class="header-right">
         <a href="/TEDxJHU/">HOME</a>
         <a href="/TEDxJHU/2020-event/">2020 EVENT</a>
-        <a href="/TEDxJHU/past-events/">PAST EVENTS</a>
         <a href="/TEDxJHU/our-team/">OUR TEAM</a>
       </div>
     </div>

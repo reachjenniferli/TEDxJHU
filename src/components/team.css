@@ -1,6 +1,6 @@
 .team-content {
     padding-left: 50px;
-    padding-right: 5px;
+    padding-right: 10px;
     padding-top: 20px;
     padding-bottom: 15px;
 }
@@ -70,7 +70,7 @@
 }
 
 .alt:hover {
-    transform: scale(1.06);
+    transform: scale(1.05);
 }
 
 .card-title {
