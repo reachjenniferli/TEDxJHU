@@ -8,7 +8,7 @@ const NotFoundPage = () => (
     <SEO title="Oops!" />
     <div class="not-found">
       <h1>Page is either currently under development or doesn't exist.</h1>
-      <p style={{paddingTop: "10px",}}>Don't be too sad. Check back later!</p>
+      <p style={{ paddingTop: "10px" }}>Don't be too sad. Check back later!</p>
     </div>
   </Layout>
 )

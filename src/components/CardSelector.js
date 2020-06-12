@@ -1,16 +1,16 @@
-import React, { Component } from "react";
-import "./team.css";
+import React, { Component } from "react"
+import "./team.css"
 
 class CardSelector extends Component {
   selectedStyles = {
     transform: "scale(1.05)",
     boxShadow: "0 0 8px rgba(0, 0, 0, 0.7)",
-    borderLeft: "solid  #EE3223"
-  };
+    borderLeft: "solid  #EE3223",
+  }
 
   unselectedStyles = {
-    boxShadow: "0 0 10px rgba(0, 0, 0, 0.4)"
-  };
+    boxShadow: "0 0 10px rgba(0, 0, 0, 0.4)",
+  }
 
   render() {
     return (
@@ -24,8 +24,8 @@ class CardSelector extends Component {
         <p class="card-title">{this.props.title}</p>
         <p class="card-text">{this.props.text}</p>
       </div>
-    );
+    )
   }
 }
 
-export default CardSelector;
+export default CardSelector
