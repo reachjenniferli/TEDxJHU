@@ -1,49 +1,41 @@
 {
-  "name": "tedx-jhu",
+  "name": "gatsby-starter-default",
   "private": true,
-  "description": "The official TEDxJHU website. A completely student-run series of TED-like talks at Johns Hopkins University.",
+  "description": "A simple starter to get up and developing quickly with Gatsby",
   "version": "0.1.0",
-  "homepage": "https://arpansahoo.github.io/TEDxJHU/",
-  "author": "Arpan Sahoo",
+  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
-    "gatsby": "^2.17.11",
-    "gatsby-image": "^2.2.33",
-    "gatsby-plugin-manifest": "^2.2.27",
-    "gatsby-plugin-offline": "^3.0.19",
-    "gatsby-plugin-react-helmet": "^3.1.14",
-    "gatsby-plugin-sharp": "^2.3.2",
-    "gatsby-source-filesystem": "^2.1.36",
-    "gatsby-transformer-sharp": "^2.3.5",
-    "prop-types": "^15.7.2",
-    "react": "^16.11.0",
-    "react-dom": "^16.11.0",
-    "react-helmet": "^5.2.1",
-    "react-inlinesvg": "^1.2.0",
-    "react-slick": "^0.25.2",
-    "react-svg": "^10.0.25",
-    "slick-carousel": "^1.8.1"
+    "gatsby": "^5.14.1",
+    "gatsby-plugin-image": "^3.14.0",
+    "gatsby-plugin-manifest": "^5.14.0",
+    "gatsby-plugin-sharp": "^5.14.0",
+    "gatsby-source-filesystem": "^5.14.0",
+    "gatsby-transformer-sharp": "^5.14.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
+    "react-inlinesvg": "^4.2.0",
+    "react-slick": "^0.31.0"
   },
   "devDependencies": {
-    "gh-pages": "^2.1.1",
-    "prettier": "^1.19.1"
+    "prettier": "^2.8.8"
   },
   "keywords": [
     "gatsby"
   ],
-  "license": "MIT",
+  "license": "0BSD",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
-    "start": "npm run develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md,css}\"",
+    "start": "gatsby develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/arpansahoo/TEDxJHU/"
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
