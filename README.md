@@ -1,6 +1,6 @@
 # TEDxJHU Website
 
-This is the repository for the official TEDxJHU website, forked from [arpansahoo](https://github.com/arpansahoo/TEDxJHU). You can visit the website here: [TEDxJHU](https://arpansahoo.github.io/TEDxJHU/).
+This is the repository for the official TEDxJHU website, forked from [arpansahoo](https://github.com/arpansahoo/TEDxJHU). You can visit the current website here: [TEDxJHU](https://reachjenniferli.github.io/TEDxJHU/).
 
 ## Preview
 
