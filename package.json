@@ -1,9 +1,10 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "tedxjhu",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "The official TEDxJHU website. A completely student-run series of TED-like talks at Johns Hopkins University.",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "homepage": "https://reachjenniferli.github.io/TEDxJHU/",
+  "author": "Arpan Sahoo, Jennifer Li",
   "dependencies": {
     "gatsby": "^5.14.1",
     "gatsby-plugin-image": "^3.14.0",
@@ -35,7 +36,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://reachjenniferli.github.io/TEDxJHU/"
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
