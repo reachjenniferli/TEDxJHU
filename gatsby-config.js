@@ -4,7 +4,7 @@ module.exports = {
     description: `The official TEDxJHU website. A completely student-run series of TED-like talks at Johns Hopkins University.`,
     author: `Arpan Sahoo`,
   },
-  pathPrefix: "/TEDxJHU/",
+  pathPrefix: "/TEDxJHU",
   plugins: [
     `gatsby-plugin-react-helmet`,
     "gatsby-plugin-sharp",
