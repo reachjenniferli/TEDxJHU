@@ -9,10 +9,9 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    title: `TEDxJHU`,
+    description: `The official TEDxJHU website. A completely student-run series of TED-like talks at Johns Hopkins University.`,
+    author: `Arpan Sahoo, Jennifer Li`,
   },
   plugins: [
     `gatsby-plugin-image`,
