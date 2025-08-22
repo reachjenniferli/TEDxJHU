@@ -34,7 +34,6 @@ const OurTeam = () => {
   const [finance, setFinance] = useState(false)
   const [market, setMarket] = useState(false)
   const [program, setProgram] = useState(false)
-  const [strat, setStrat] = useState(false)
   const [tech, setTech] = useState(false)
 
   const toggleComms = () => {
@@ -44,7 +43,6 @@ const OurTeam = () => {
     setFinance(false)
     setMarket(false)
     setProgram(false)
-    setStrat(false)
     setTech(false)
   }
 
@@ -55,7 +53,6 @@ const OurTeam = () => {
     setFinance(false)
     setMarket(false)
     setProgram(false)
-    setStrat(false)
     setTech(false)
   }
 
@@ -66,7 +63,6 @@ const OurTeam = () => {
     setFinance(true)
     setMarket(false)
     setProgram(false)
-    setStrat(false)
     setTech(false)
   }
 
@@ -77,7 +73,6 @@ const OurTeam = () => {
     setFinance(false)
     setMarket(true)
     setProgram(false)
-    setStrat(false)
     setTech(false)
   }
 
@@ -88,18 +83,6 @@ const OurTeam = () => {
     setFinance(false)
     setMarket(false)
     setProgram(true)
-    setStrat(false)
-    setTech(false)
-  }
-
-  const toggleStrat = () => {
-    setComms(false)
-    setCurator(false)
-    setDesign(false)
-    setFinance(false)
-    setMarket(false)
-    setProgram(false)
-    setStrat(true)
     setTech(false)
   }
 
@@ -110,7 +93,6 @@ const OurTeam = () => {
     setFinance(false)
     setMarket(false)
     setProgram(false)
-    setStrat(false)
     setTech(true)
   }
 
@@ -121,7 +103,6 @@ const OurTeam = () => {
     setFinance(false)
     setMarket(false)
     setProgram(false)
-    setStrat(false)
     setTech(false)
   }
 
@@ -141,7 +122,7 @@ const OurTeam = () => {
               <div class="card-wrapper" onClick={toggleCurator}>
                 <CardSelector
                   title="Curators"
-                  text="[Enter description]"
+                  text="Oversee the team, manage operations, and ensure the event's success."
                   selected={curator === true}
                 />
               </div>
@@ -186,13 +167,6 @@ const OurTeam = () => {
             </div>
 
             <div class="small">
-              <div class="card-wrapper" onClick={toggleStrat}>
-                <CardSelector
-                  title="Strategic Initiatives"
-                  text="[Enter description]"
-                  selected={strat === true}
-                />
-              </div>
               <div class="card-wrapper" onClick={toggleTech}>
                 <CardSelector
                   title="Technology"
@@ -287,31 +261,6 @@ const OurTeam = () => {
                   <div class="card alt">
                     <img src={christina} alt="Christina" class="profile"></img>
                     <p class="member-name">Christina Glaser</p>
-                  </div>
-                </div>
-              </div>
-            )}
-
-            {strat && (
-              <div class="member-wrapper">
-                <div class="card-wrapper">
-                  <div class="card alt">
-                    <img src={pranav} alt="pranav" class="profile"></img>
-                    <p class="member-name">Pranav Reddy</p>
-                  </div>
-                  <div class="card alt">
-                    <img src={justin} alt="justin" class="profile"></img>
-                    <p class="member-name">Justin Zhao</p>
-                  </div>
-                </div>
-                <div class="card-wrapper">
-                  <div class="card alt">
-                    <img src={ian} alt="ian" class="profile"></img>
-                    <p class="member-name">Ian Cataluna</p>
-                  </div>
-                  <div class="card alt">
-                    <img src={anne} alt="anne" class="profile"></img>
-                    <p class="member-name">Anne Islam</p>
                   </div>
                 </div>
               </div>

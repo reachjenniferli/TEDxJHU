@@ -204,7 +204,8 @@ html {
 
 .recent-talks-videos {
   display: flex;
-  height: 100%;
+  height: auto;
+  width: 100%;
   outline: none;
 }
 

@@ -69,7 +69,7 @@ const Layout = ({ children }) => {
             </a>
           </p>
 
-          <p class="right">Built by Arpan Sahoo</p>
+          <p class="right">Built by Arpan Sahoo and Jennifer Li</p>
         </footer>
       </div>
     </>

@@ -49,8 +49,8 @@ const IndexPage = () => (
       <img src={bg} alt="Background Wallpaper" id="bg-img"></img>
       <img src={bgLogo} alt="TEDxJHU Logo" id="bg-logo"></img>
       <div class="button-wrapper">
-        <a href="/TEDxJHU/2020-event/">
-          <button class="enter-button">View 2020 Event</button>
+        <a href="/TEDxJHU/fall-2025/">
+          <button class="enter-button">View Fall 2025 Event</button>
         </a>
       </div>
     </div>
@@ -58,63 +58,23 @@ const IndexPage = () => (
     <div class="recent-talks">
       <p class="recent-talks-header">Newest Talks</p>
       <p class="recent-talks-subheader">
-        An assortment of talks from our recent events
+        Check out a few of our spotlight talks from recent years.
       </p>
+
       <Slider {...settings}>
-        <div class="recent-talks-videos">
-          <a
-            href="https://youtu.be/2Hubvs2TiL4"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src={thumb1} alt="Recent Talk" class="thumbnail"></img>
-          </a>
-        </div>
-        <div class="recent-talks-videos">
-          <a
-            href="https://youtu.be/22Tb8V_QjNI"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src={thumb2} alt="Recent Talk" class="thumbnail"></img>
-          </a>
-        </div>
-        <div class="recent-talks-videos">
-          <a
-            href="https://youtu.be/4P1wq3QIa2I"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src={thumb3} alt="Recent Talk" class="thumbnail"></img>
-          </a>
-        </div>
-        <div class="recent-talks-videos">
-          <a
-            href="https://youtu.be/6wBK4LWB1cI"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src={thumb4} alt="Recent Talk" class="thumbnail"></img>
-          </a>
-        </div>
-        <div class="recent-talks-videos">
-          <a
-            href="https://youtu.be/nx5wdXm7QT8"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src={thumb5} alt="Recent Talk" class="thumbnail"></img>
-          </a>
-        </div>
-        <div class="recent-talks-videos">
-          <a
-            href="https://youtu.be/gKZ9uz38vIE"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src={thumb6} alt="Recent Talk" class="thumbnail"></img>
-          </a>
-        </div>
+        
+        <iframe width="560" height="800" src="https://www.youtube.com/embed/pzqhSeHpya4?si=85t4tzeXnHB1S8iZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        
+        <iframe width="560" height="800" src="https://www.youtube.com/embed/zstj8g0ctRM?si=rYXRWnYLLmoPX8_w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <iframe width="560" height="800" src="https://www.youtube.com/embed/22Tb8V_QjNI?si=_rWO7rMwYZiTOFge" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <iframe width="560" height="800" src="https://www.youtube.com/embed/45DThaGHwzs?si=dnWU2XlvxvvxKMnx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <iframe width="560" height="800" src="https://www.youtube.com/embed/i_nGluS5-B0?si=hLQfQ02ocUWKZt_N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <iframe width="560" height="800" src="https://www.youtube.com/embed/wSDMPxGGy3A?si=zh8hOhiT2EgcIRZa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
       </Slider>
     </div>
 
