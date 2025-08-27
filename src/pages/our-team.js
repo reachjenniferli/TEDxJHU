@@ -109,31 +109,31 @@ const OurTeam = () => {
   return (
     <Layout>
       <SEO title="Our Team" />
-      <div class="team-content">
-        <p class="team-header">Meet the Team</p>
-        <p class="team-subheader">
+      <div className="team-content">
+        <p className="team-header">Meet the Team</p>
+        <p className="team-subheader">
           Wonderful individuals dedicated to the TED motto, "ideas worth
           spreading"
         </p>
 
-        <div class="side-by-side">
-          <div class="teams">
-            <div class="small">
-              <div class="card-wrapper" onClick={toggleCurator}>
+        <div className="side-by-side">
+          <div className="teams">
+            <div className="small">
+              <div className="card-wrapper" onClick={toggleCurator}>
                 <CardSelector
                   title="Curators"
                   text="Oversee the team, manage operations, and ensure the event's success."
                   selected={curator === true}
                 />
               </div>
-              <div class="card-wrapper" onClick={toggleComms}>
+              <div className="card-wrapper" onClick={toggleComms}>
                 <CardSelector
                   title="Communications"
                   text="Work with speakers to refine and improve their talks."
                   selected={comms === true}
                 />
               </div>
-              <div class="card-wrapper" onClick={toggleDesign}>
+              <div className="card-wrapper" onClick={toggleDesign}>
                 <CardSelector
                   title="Design"
                   text="Design theme graphics, the event stage, and promotional posters/flyers."
@@ -142,22 +142,22 @@ const OurTeam = () => {
               </div>
             </div>
 
-            <div class="small">
-              <div class="card-wrapper" onClick={toggleFinance}>
+            <div className="small">
+              <div className="card-wrapper" onClick={toggleFinance}>
                 <CardSelector
                   title="Finance"
                   text="Manage expenses and revenue, seek event funding, and organize fundraisers."
                   selected={finance === true}
                 />
               </div>
-              <div class="card-wrapper" onClick={toggleMarket}>
+              <div className="card-wrapper" onClick={toggleMarket}>
                 <CardSelector
                   title="Marketing"
                   text="Responsible for our social media presence and on-campus marketing."
                   selected={market === true}
                 />
               </div>
-              <div class="card-wrapper" onClick={toggleProgram}>
+              <div className="card-wrapper" onClick={toggleProgram}>
                 <CardSelector
                   title="Programming"
                   text="Plan events and logistics, with a focus on community engagement."
@@ -166,8 +166,8 @@ const OurTeam = () => {
               </div>
             </div>
 
-            <div class="small">
-              <div class="card-wrapper" onClick={toggleTech}>
+            <div className="small">
+              <div className="card-wrapper" onClick={toggleTech}>
                 <CardSelector
                   title="Technology"
                   text="Responsible for video production, event photography, and AV support."
@@ -177,115 +177,115 @@ const OurTeam = () => {
             </div>
           </div>
 
-          <div class="members">
+          <div className="members">
             {curator && (
-              <div class="member-wrapper">
-                <div class="card-wrapper">
-                  <div class="card alt">
-                    <img src={naomi} alt="Naomi" class="profile"></img>
-                    <p class="member-name">Naomi Gail Rafi</p>
+              <div className="member-wrapper">
+                <div className="card-wrapper">
+                  <div className="card alt">
+                    <img src={naomi} alt="Naomi" className="profile"></img>
+                    <p className="member-name">Naomi Gail Rafi</p>
                   </div>
-                  <div class="card alt">
-                    <img src={matt} alt="Matt" class="profile"></img>
-                    <p class="member-name">Matthew Lombardo</p>
+                  <div className="card alt">
+                    <img src={matt} alt="Matt" className="profile"></img>
+                    <p className="member-name">Matthew Lombardo</p>
                   </div>
                 </div>
               </div>
             )}
 
             {tech && (
-              <div class="member-wrapper">
-                <div class="card-wrapper">
-                  <div class="card alt">
-                    <img src={soowan} alt="Soowan" class="profile"></img>
-                    <p class="member-name">Soowan Jeong</p>
+              <div className="member-wrapper">
+                <div className="card-wrapper">
+                  <div className="card alt">
+                    <img src={soowan} alt="Soowan" className="profile"></img>
+                    <p className="member-name">Soowan Jeong</p>
                   </div>
-                  <div class="card alt">
-                    <img src={keidai} alt="Keidai" class="profile"></img>
-                    <p class="member-name">Keidai Lee</p>
+                  <div className="card alt">
+                    <img src={keidai} alt="Keidai" className="profile"></img>
+                    <p className="member-name">Keidai Lee</p>
                   </div>
                 </div>
-                <div class="card-wrapper">
-                  <div class="card alt">
-                    <img src={ashley} alt="Ashley" class="profile"></img>
-                    <p class="member-name">Ashley Choy</p>
+                <div className="card-wrapper">
+                  <div className="card alt">
+                    <img src={ashley} alt="Ashley" className="profile"></img>
+                    <p className="member-name">Ashley Choy</p>
                   </div>
-                  <div class="card alt">
-                    <img src={victoria} alt="victoria" class="profile"></img>
-                    <p class="member-name">Victoria Qu</p>
+                  <div className="card alt">
+                    <img src={victoria} alt="victoria" className="profile"></img>
+                    <p className="member-name">Victoria Qu</p>
                   </div>
                 </div>
               </div>
             )}
 
             {program && (
-              <div class="member-wrapper">
-                <div class="card-wrapper">
-                  <div class="card alt">
-                    <img src={bea} alt="Beatrice" class="profile"></img>
-                    <p class="member-name">Beatrice Gruskin</p>
+              <div className="member-wrapper">
+                <div className="card-wrapper">
+                  <div className="card alt">
+                    <img src={bea} alt="Beatrice" className="profile"></img>
+                    <p className="member-name">Beatrice Gruskin</p>
                   </div>
-                  <div class="card alt">
-                    <img src={gurjot} alt="gurjot" class="profile"></img>
-                    <p class="member-name">Gurjot Chand</p>
+                  <div className="card alt">
+                    <img src={gurjot} alt="gurjot" className="profile"></img>
+                    <p className="member-name">Gurjot Chand</p>
                   </div>
                 </div>
               </div>
             )}
 
             {market && (
-              <div class="member-wrapper">
-                <div class="card-wrapper">
-                  <div class="card alt">
-                    <img src={trent} alt="Trent" class="profile"></img>
-                    <p class="member-name">Trent Dilka</p>
+              <div className="member-wrapper">
+                <div className="card-wrapper">
+                  <div className="card alt">
+                    <img src={trent} alt="Trent" className="profile"></img>
+                    <p className="member-name">Trent Dilka</p>
                   </div>
-                  <div class="card alt">
-                    <img src={grace} alt="Grace" class="profile"></img>
-                    <p class="member-name">Grace Kim</p>
+                  <div className="card alt">
+                    <img src={grace} alt="Grace" className="profile"></img>
+                    <p className="member-name">Grace Kim</p>
                   </div>
-                  <div class="card alt">
-                    <img src={wesley} alt="Wesley" class="profile"></img>
-                    <p class="member-name">Wesley Tsai</p>
+                  <div className="card alt">
+                    <img src={wesley} alt="Wesley" className="profile"></img>
+                    <p className="member-name">Wesley Tsai</p>
                   </div>
                 </div>
-                <div class="card-wrapper">
-                  <div class="card alt">
-                    <img src={mohammed} alt="Mohammed" class="profile"></img>
-                    <p class="member-name">Mohammed Mumtaz</p>
+                <div className="card-wrapper">
+                  <div className="card alt">
+                    <img src={mohammed} alt="Mohammed" className="profile"></img>
+                    <p className="member-name">Mohammed Mumtaz</p>
                   </div>
-                  <div class="card alt">
-                    <img src={aileen} alt="Aileen" class="profile"></img>
-                    <p class="member-name">Aileen Zhou</p>
+                  <div className="card alt">
+                    <img src={aileen} alt="Aileen" className="profile"></img>
+                    <p className="member-name">Aileen Zhou</p>
                   </div>
-                  <div class="card alt">
-                    <img src={christina} alt="Christina" class="profile"></img>
-                    <p class="member-name">Christina Glaser</p>
+                  <div className="card alt">
+                    <img src={christina} alt="Christina" className="profile"></img>
+                    <p className="member-name">Christina Glaser</p>
                   </div>
                 </div>
               </div>
             )}
 
             {design && (
-              <div class="member-wrapper">
-                <div class="card-wrapper">
-                  <div class="card alt">
-                    <img src={melody} alt="melody" class="profile"></img>
-                    <p class="member-name">Melody Hsu</p>
+              <div className="member-wrapper">
+                <div className="card-wrapper">
+                  <div className="card alt">
+                    <img src={melody} alt="melody" className="profile"></img>
+                    <p className="member-name">Melody Hsu</p>
                   </div>
-                  <div class="card alt">
-                    <img src={billy} alt="billy" class="profile"></img>
-                    <p class="member-name">Billy Jia</p>
+                  <div className="card alt">
+                    <img src={billy} alt="billy" className="profile"></img>
+                    <p className="member-name">Billy Jia</p>
                   </div>
                 </div>
-                <div class="card-wrapper">
-                  <div class="card alt">
-                    <img src={irene} alt="irene" class="profile"></img>
-                    <p class="member-name">Irene Halferty</p>
+                <div className="card-wrapper">
+                  <div className="card alt">
+                    <img src={irene} alt="irene" className="profile"></img>
+                    <p className="member-name">Irene Halferty</p>
                   </div>
-                  <div class="card alt">
-                    <img src={cai} alt="cai" class="profile"></img>
-                    <p class="member-name">Ashley Cai</p>
+                  <div className="card alt">
+                    <img src={cai} alt="cai" className="profile"></img>
+                    <p className="member-name">Ashley Cai</p>
                   </div>
                 </div>
               </div>
