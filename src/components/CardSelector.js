@@ -16,6 +16,8 @@ class CardSelector extends Component {
     return (
       <div
         className="card small-card"
+        role="button"
+        tabIndex={0}
         onClick={this.toggleSelect}
         style={
           this.props.selected ? this.selectedStyles : this.unselectedStyles
