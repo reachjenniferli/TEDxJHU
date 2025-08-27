@@ -21,8 +21,8 @@ class CardSelector extends Component {
           this.props.selected ? this.selectedStyles : this.unselectedStyles
         }
       >
-        <p class="card-title">{this.props.title}</p>
-        <p class="card-text">{this.props.text}</p>
+        <p className="card-title">{this.props.title}</p>
+        <p className="card-text">{this.props.text}</p>
       </div>
     )
   }
