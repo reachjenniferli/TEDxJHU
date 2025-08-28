@@ -27,6 +27,12 @@ import billy from "../images/profilePics/billy.jpg"
 import melody from "../images/profilePics/melody.jpg"
 import cai from "../images/profilePics/cai.jpg"
 
+import arielle from "../images/profilePics/arielle.jpeg"
+import karen from "../images/profilePics/karen.jpg"
+
+import jenniferm from "../images/profilePics/jenniferm.jpeg"
+import jenniferl from "../images/profilePics/jenniferl.jpg"
+
 const OurTeam = () => {
   const [curator, setCurator] = useState(true)
   const [comms, setComms] = useState(false)
@@ -182,12 +188,12 @@ const OurTeam = () => {
               <div className="member-wrapper">
                 <div className="card-wrapper">
                   <div className="card alt">
-                    <img src={naomi} alt="Naomi" className="profile"></img>
-                    <p className="member-name">Naomi Gail Rafi</p>
+                    <img src={arielle} alt="Arielle" className="profile"></img>
+                    <p className="member-name">Arielle Clayton</p>
                   </div>
                   <div className="card alt">
-                    <img src={matt} alt="Matt" className="profile"></img>
-                    <p className="member-name">Matthew Lombardo</p>
+                    <img src={karen} alt="Karen" className="profile"></img>
+                    <p className="member-name">Karen Linares</p>
                   </div>
                 </div>
               </div>
@@ -270,12 +276,12 @@ const OurTeam = () => {
               <div className="member-wrapper">
                 <div className="card-wrapper">
                   <div className="card alt">
-                    <img src={melody} alt="melody" className="profile"></img>
-                    <p className="member-name">Melody Hsu</p>
+                    <img src={jenniferm} alt="melody" className="profile"></img>
+                    <p className="member-name">Jennifer Mendoza</p>
                   </div>
                   <div className="card alt">
-                    <img src={billy} alt="billy" className="profile"></img>
-                    <p className="member-name">Billy Jia</p>
+                    <img src={jenniferl} alt="billy" className="profile"></img>
+                    <p className="member-name">Jennifer Li</p>
                   </div>
                 </div>
                 <div className="card-wrapper">
